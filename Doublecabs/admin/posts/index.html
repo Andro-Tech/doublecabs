@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/7007c02631.js" crossorigin="anonymous"></script>
+
+    <!--Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Thambi+2&display=swap" rel="stylesheet">
+
+
+    <!--custom Styling-->
+    <link rel="stylesheet" href="../../css/style.css">
+
+    <!--custom Admin Styling-->
+    <link rel="stylesheet" href="../../css/admin.css">
+
+    <title>Admin Section|Post management</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1 class="logo-text"><span>Double </span>Cabs</h1>
+        </div>
+        <i class="fa fa-bars menu-toggle"></i>
+        <ul class="nav">
+            <li>
+                <a href="#">
+                    <i class="fa fa-user"></i> Double Cabs
+                    <i class="fa fa-chevron-down"></i>
+                </a>
+                <ul>
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#" class="logout">Logout</a></li>
+                </ul>
+            </li>
+        </ul>
+        </div>
+    </header>
+
+    <!--page wrapper-->
+    <div class="admin-wrapper">
+
+        <!--left sidebar-->
+        <div class="left-sidebar">
+            <ul>
+                <li><a href="index.html">Manage Posts</a></li>
+                <li><a href="../users/index.html">Manage Users</a></li>
+                <li><a href="../brand/index.html">Manage Brands</a></li>
+            </ul>
+        </div>
+        <!--//Left sidebar-->
+
+
+        <!--Admin Content-->
+        <div class="admin-content">
+            <div class="button-group">
+                <a href="create.html" class="btn btn-big">Add Post</a>
+                <a href="index.html" class="btn btn-big">Manage Posts</a>
+            </div>
+
+            <div class="content">
+
+                <h2 class="page-title">Manage Posts</h2>
+                <table>
+                    <thead>
+                        <th>SN</th>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th colspan="3">Action</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>This is the first post</td>
+                            <td>Andrew</td>
+                            <td><a href="#" class="edit">Edit</a></td>
+                            <td><a href="#" class="delete">Delete</a></td>
+                            <td><a href="#" class="publish">Post</a></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>This is the second post</td>
+                            <td>Kayiza</td>
+                            <td><a href="#" class="edit">Edit</a></td>
+                            <td><a href="#" class="delete">Delete</a></td>
+                            <td><a href="#" class="publish">Post</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+
+
+    </div>
+    <!--//page wrapper-->
+
+    <!--footer-->
+    <div class="footer-bottom">
+        &copy; DoubleCabs | Designed by Andrew Kayiza
+    </div>
+    <!-- //footer-->
+
+
+    <!--jQuery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <!--Custom Script-->
+    <script src="../../js/scripts.js"></script>
+
+</body>
+
+</html>
